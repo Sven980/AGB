@@ -6,10 +6,11 @@
     <title>Allgemeine Geschäftsbedingungen</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
+            background-color: #f5f5f5;
         }
         .container {
             display: flex;
@@ -22,17 +23,21 @@
         .sidebar {
             width: 250px;
             padding: 20px;
-            background-color: #f4f4f4;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             position: fixed;
             top: 0;
             left: 0;
             height: 100%;
             overflow-y: auto;
+            z-index: 1000;
         }
         .content {
-            margin-left: 300px;
+            margin-left: 270px;
             padding: 20px;
             flex: 1;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .sidebar ul {
             list-style-type: none;
@@ -44,13 +49,18 @@
         .sidebar ul li a {
             text-decoration: none;
             color: #333;
+            display: block;
+            padding: 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
         }
         .sidebar ul li a:hover {
-            text-decoration: underline;
+            background-color: #e0e0e0;
         }
         h1, h2, h3, h4, h5, h6 {
             margin-top: 20px;
             margin-bottom: 10px;
+            color: #333;
         }
         @media (max-width: 768px) {
             .container {
@@ -60,6 +70,7 @@
                 width: 100%;
                 position: static;
                 height: auto;
+                margin-bottom: 20px;
             }
             .content {
                 margin-left: 0;
