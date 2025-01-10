@@ -21,8 +21,8 @@
             padding: 20px;
         }
         .sidebar {
-            width: 250px;
-            padding: 20px;
+            width: 100px;
+            padding: 10px;
             background-color: #ffffff;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             position: fixed;
@@ -33,7 +33,7 @@
             z-index: 1000;
         }
         .content {
-            margin-left: 270px;
+            margin-left: 120px;
             padding: 20px;
             flex: 1;
             background-color: #ffffff;
@@ -68,17 +68,12 @@
             }
             .sidebar {
                 width: 100%;
-                position: fixed;
-                top: 0;
-                left: 0;
+                position: static;
                 height: auto;
-                bottom: 0;
-                overflow-y: auto;
-                z-index: 1000;
+                margin-bottom: 20px;
             }
             .content {
                 margin-left: 0;
-                margin-top: 270px;
             }
         }
     </style>
@@ -86,7 +81,7 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <h2>Inhaltsverzeichnis</h2>
+            <h2>Navigation</h2>
             <ul>
                 <li><a href="#vertragsschluss">Vertragsschluss</a></li>
                 <li><a href="#preise-und-zahlung">Preise und Zahlung</a></li>
