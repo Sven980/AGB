@@ -11,36 +11,26 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            color: #333;
         }
         .container {
-            width: 90%;
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
+        h1, h2, h3 {
             color: #333;
         }
-        h1 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        h2 {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
         p {
-            margin-bottom: 20px;
+            margin-bottom: 1em;
+        }
+        ul {
+            margin-bottom: 1em;
         }
         @media (max-width: 768px) {
-            h1 {
-                font-size: 20px;
-            }
-            h2 {
-                font-size: 18px;
+            .container {
+                padding: 10px;
             }
         }
     </style>
@@ -61,8 +51,10 @@
         <p>2.2. Die Zahlung erfolgt bar bei Abholung oder per Überweisung.</p>
         <p>2.3. Bei Zahlung per Überweisung muss die Überweisung vor der Abholung der Ware auf dem Konto des Verkäufers eingegangen sein.</p>
         <p>2.4. Bankverbindung für Überweisungen:</p>
-        <p>- Kontoinhaber: [Name des Kontoinhabers]</p>
-        <p>- IBAN: [Ihre IBAN]</p>
+        <ul>
+            <li>Kontoinhaber: [Name des Kontoinhabers]</li>
+            <li>IBAN: [Ihre IBAN]</li>
+        </ul>
         <p>2.5. Der Verkäufer behält sich das Recht vor, in bestimmten Fällen eine Anzahlung oder Vorauszahlung zu verlangen.</p>
         <p>2.6. Der Käufer ist verpflichtet, den vollen Kaufpreis spätestens bei Abholung der Ware zu begleichen.</p>
         <p>2.7. Im Falle einer Vorauszahlung für einen PC behält sich der Verkäufer das Recht vor, eine Frist von 30 Tagen zur Fertigstellung des PCs einzuräumen.</p>
@@ -87,13 +79,10 @@
         <p>4.6. Der Verkäufer haftet nicht für Schäden, die während des Transports oder der Lagerung durch den Käufer entstehen.</p>
 
         <h2>5. Datenschutz</h2>
+
         <h3>5.1. Verantwortlicher</h3>
         <p>Der Verantwortliche für die Verarbeitung personenbezogener Daten ist:</p>
-        <p>Sven Hegewald</p>
-        <p>Bergstraße 18</p>
-        <p>16761 Hennigsdorf</p>
-        <p>Kontakt: sven.hegewald@protonmail.com</p>
-        <p>Telefon: +49 176 26616605</p>
+        <p>Sven Hegewald<br>Bergstraße 18<br>16761 Hennigsdorf<br>Kontakt: sven.hegewald@protonmail.com<br>Telefon: +49 176 26616605</p>
 
         <h3>5.2. Zweck der Datenverarbeitung</h3>
         <p>Die personenbezogenen Daten des Käufers werden zur Vertragsabwicklung, Kundenbetreuung und zur Erfüllung gesetzlicher Verpflichtungen verarbeitet. Dies umfasst insbesondere die Abwicklung von Bestellungen, die Lieferung von Waren, die Rechnungsstellung und den Kundenservice.</p>
@@ -160,22 +149,28 @@
 
         <h2>14. Haftungsausschlüsse</h2>
         <p>14.1. Der Verkäufer haftet nicht für:</p>
-        <p>- Schäden, die durch höhere Gewalt verursacht werden.</p>
-        <p>- Schäden durch unsachgemäße Nutzung oder Änderungen der Ware durch den Käufer.</p>
-        <p>- indirekte oder Folgeschäden, wie entgangenen Gewinn oder Nutzungsausfall.</p>
-        <p>- Informationen oder Inhalte von Drittanbietern, die auf der Plattform zur Verfügung gestellt werden.</p>
-        <p>- technische Probleme oder Ausfälle, die außerhalb des Einflussbereichs des Verkäufers liegen.</p>
-        <p>- Schäden, die durch falsche oder unvollständige Angaben des Käufers entstehen.</p>
+        <ul>
+            <li>Schäden, die durch höhere Gewalt verursacht werden.</li>
+            <li>Schäden durch unsachgemäße Nutzung oder Änderungen der Ware durch den Käufer.</li>
+            <li>indirekte oder Folgeschäden, wie entgangenen Gewinn oder Nutzungsausfall.</li>
+            <li>Informationen oder Inhalte von Drittanbietern, die auf der Plattform zur Verfügung gestellt werden.</li>
+            <li>technische Probleme oder Ausfälle, die außerhalb des Einflussbereichs des Verkäufers liegen.</li>
+            <li>Schäden, die durch falsche oder unvollständige Angaben des Käufers entstehen.</li>
+        </ul>
 
         <h2>15. Verweigerung von Support</h2>
         <p>15.1. Der Verkäufer behält sich das Recht vor, Support und Dienstleistungen zu verweigern, wenn der Kunde sich unangemessen verhält, insbesondere bei Beleidigungen, Drohungen oder respektlosem Verhalten.</p>
 
         <h2>16. Verkäuferinformationen</h2>
-        <p>- Sven Hegewald, Bergstraße 18, 16761 Hennigsdorf</p>
-        <p>- Kontakt: sven.hegewald@protonmail.com, +49 176 26616605</p>
+        <p>Sven Hegewald, Bergstraße 18, 16761 Hennigsdorf<br>Kontakt: sven.hegewald@protonmail.com, +49 176 26616605</p>
 
         <h2>17. Support über WhatsApp</h2>
         <p>Support und Kommunikation über WhatsApp, keine Haftung für Sicherheit oder Vertraulichkeit.</p>
+
+        <h2>18. Verpflichtung zum Kauf bei Sonderbestellungen</h2>
+        <p>18.1. Wenn der Verkäufer auf ausdrücklichen Wunsch des Käufers ein Produkt extra für diesen einkauft, ist der Käufer verpflichtet, das Produkt zu erwerben und den vollen Kaufpreis zu bezahlen.</p>
+        <p>18.2. Der Käufer hat kein Rücktrittsrecht von dieser Verpflichtung, es sei denn, der Verkäufer stimmt ausdrücklich schriftlich zu.</p>
+        <p>18.3. Der Verkäufer behält sich das Recht vor, eine Anzahlung oder Vorauszahlung für solche Sonderbestellungen zu verlangen.</p>
     </div>
 </body>
 </html>
