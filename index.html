@@ -11,6 +11,8 @@
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
+      background-color: #fff;
+      color: #333;
     }
     h1, h2, h3 {
       color: #333;
@@ -25,6 +27,23 @@
     }
     a {
       color: #0066cc;
+    }
+
+    /* Dark Mode */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+      }
+      h1, h2, h3 {
+        color: #ffffff;
+      }
+      hr {
+        border-top: 1px solid #444;
+      }
+      a {
+        color: #BB86FC;
+      }
     }
   </style>
 </head>
